@@ -1,0 +1,35 @@
+$bb-pink: grey;
+$bb-blue: darkgrey;
+
+@font-face {
+    font-family: BubbleFont;
+    src: url('../assets/fonts/deftone_stylus.ttf');
+}
+
+html, body{
+  background-color: $bb-pink;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  ul{
+    margin: 0;
+    padding:0;
+  }
+}
+
+h2{
+  text-decoration: underline;
+  font-family: BubbleFont;
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+@import '_header';
+@import '_about';
+
+@import '_events';
+@import '_contact';

@@ -1,0 +1,42 @@
+.contact{
+  .container{
+    overflow: hidden;
+    width:80%;
+    margin: 0 auto;
+    .form-container{
+      float:left;
+      width:50%;
+      .form-elem{
+        margin: 10px 10px;
+      }
+      input,textarea{
+        width:100%;
+        border-radius: 3px;
+        border-style: none;
+        resize: none;
+      }
+      textarea{
+
+        height:10em;
+      }
+      #submit{
+        width:25%;
+        
+        height: 20px;
+        border-radius: 50vh;
+      }
+
+    }
+    .contact-container{
+      width:50%;
+      float:right;
+      .fa{
+        font-size: 30px;
+
+      }
+    }
+    .navigate{
+      float:right;
+    }
+  }
+}

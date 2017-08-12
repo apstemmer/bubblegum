@@ -1,0 +1,26 @@
+.about{
+  overflow:hidden;
+  .mem-wrap{
+    width:80%;
+    margin: 40px auto;
+  }
+  .member{
+    width:25%;
+    float:left;
+    text-align: center;
+    img{
+      margin:0 auto;
+      width:150px;
+      height:150px;
+      border-radius: 50vh;
+      background-color: #AAA;
+    }
+    h3{
+      text-align: center;
+    }
+    p{
+      text-align: left;
+      margin:10px;
+    }
+  }
+}
